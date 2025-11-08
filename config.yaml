@@ -40,27 +40,18 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "<span>\ue62a</span>"
-      menu_labels:
-        about: "\ue66A  About This PC"
-        system: "\uF423  System Settings"
-        task_manager: "\uf437  Task Manager"
-        hibernate: "\uf28e  Hibernate"
-        sleep: "\u23fe   Sleep"
-        restart: "\uead2   Restart"
-        shutdown: "\uf011   Shutdown"
-        lock: "\uea75   Lock"
-        logout: "\udb80\udf43   Logout"
+      label: "<span>\udb81\udf17</span>"
       menu_list:
-        - { title: "\uE617  User Home", path: "~" }
-        - { title: "\udb80\udd20  Download", path: "~\\Downloads" }
-        - { title: "\udb80\ude1a  Documents", path: "~\\Documents" }
-        - { title: "\uf03e  Pictures", path: "~\\Pictures" }
-      system_menu: true
-      power_menu: true
+        - { title: "User Home", path: "~" }
+        - { title: "Dev", path: "C:\\dev" }
+        - { title: "JDev", path: "C:\\JDeveloper" }
+        - { title: "JDKs", path: "C:\\Program Files\\Java" }
+        - { title: "Catalogo", path: "C:\\dev\\MisCons" }
+        - { title: "VS Projects", path: "C:\\Users\\jul\\source\\repos" }
+        - { title: "IntelliJ Projects", path: "C:\\Users\\jul\\IdeaProjects" }
+      system_menu: false
+      power_menu: false
       blur: true
-      border_color: "System"
-      round_corners_type: "normal"
   clock:
     type: "yasb.clock.ClockWidget"
     options:
