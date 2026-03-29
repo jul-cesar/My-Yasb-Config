@@ -22,7 +22,7 @@ bars:
       width: "100%"
       height: 36
     widgets:
-      left: ["home", "update_check", "notes", "todo", "pomodoro", "taskbar"]
+      left: ["home", "taskbar"]
       center: ["clock", "weather", "media"]
       right:
         [
